@@ -1,14 +1,14 @@
 /*HELLO BRO TERIMA KASIH SUDAH AMBIL SCRIPT INI JANGAN LUPA IKUTI DAN SUBSCRIBE MEDIA SOSIAL OWNER DAN BOT
 
 Sc Ori By Arasya
-Sc Record By Christian ID
+Sc Record By Kyy
 Note : Jangan Perjualkan Sc Ini!!!
 
 Instagram Jojo : @arsrfi.jpg
 Youtube Jojo : Jojo Channel
 
 Instagram : @chris.tianid
-Youtube : Christian ID
+Youtube : Kyy
 WhatsApp : 0859-2116-5857
 
 THANKS TO
@@ -19,7 +19,7 @@ THANKS TO
 - Rafli Rusdiana
 - Febri
 - Jojo
-- Christian ID
+- Kyy
 
 Terimakasih*/
 "use strict";
@@ -73,38 +73,38 @@ const chrisapi = "IzumiBot"
 // SETTING BOT AND OWNER //
 const nobot = "37259886749" // Ganti No Bot Kalian
 const namabot = "Izumi MD" // Ganti Nama Bot Kalian
-const nameown = "Christian ID" // Ganti Nama Kalian
+const nameown = "Kyy" // Ganti Nama Kalian
 const numown = "0859-2116-5857" // Ganti Nomor Kalian
-const nameowner = "Christian" // Ganti Nama Kalian
-const footer = "Izumi MD 2022" // Ganti Nama Bot Kalian
-const capt = "*By Izumi Bot MD*" // Ganti Nama Bot Kalian
-const grup = "https://chat.whatsapp.com/LsNzi7PDERyB9xIlW0F8Eq" // Ganti Link Group Kalian
-const nomorown = "https://wa.me/6285921165857" // Ganti Nomor Kalian
+const nameowner = "Kyy" // Ganti Nama Kalian
+const footer = "Yakuzaa MD 2022" // Ganti Nama Bot Kalian
+const capt = "*By Yakuzaa MD*" // Ganti Nama Bot Kalian
+const grup = "https://chat.whatsapp.com/GFAYWksO7ACDwU59LZoIgi" // Ganti Link Group Kalian
+const nomorown = "https://wa.me/6283830815715" // Ganti Nomor Kalian
 const note = "*_Bot Ini Masih Dalam Pengembangan Jika Ada Fitur Yang Eror Silakan Hubungi Owner!!!_*" // Kalau Mau Ganti Aja
-const namagrup = "Group Izumi MD" // Ubah Nama Group Mu
+const namagrup = "Group Y𝖆кuz𝖆" // Ubah Nama Group Mu
 
 // Setting Donasi
 const gopay = "0813-2850-7885" // Ganti Nomor Gopay Mu
-const pulsa = "0813-2850-7885" // Ganti No Pulsa Mu
+const pulsa = "083830815715" // Ganti No Pulsa Mu
 const insta = "chris.tianid" // Ganti Nama IG Mu
 const github = "TianBot1" // Ganti Nama Github Mu
 const linkdonasi = "https://telegra.ph/file/b7f1243d43509983f3230.jpg" // Ganti Link Qris Mu
 
 // Setting SewaBot Ubah Harga Sesuai Harga Mu//
 const qris = "https://telegra.ph/file/b7f1243d43509983f3230.jpg"
-const nomor = "wa.me/6285921165857"
+const nomor = "wa.me/6283830815715"
 const tujuhhari = "5.000"
 const tigapuluhhari = "10.000"
 const setahun = "20.000"
 const permanen = "30.000"
 
 //Setting Diamond FF | Ubah Harga Diamond Sesuai Kemauan mu//
-const diamondsatu = "50 💎 = 8.000"
-const diamonddua = "70 💎 = 10.000"
-const diamondtiga = "100 💎 = 15.000"
-const diamondempat = "140 💎 = 20.000"
-const diamondlima = "355 💎 = 50.000"
-const diamondenam = "720 💎 = 100.000"
+const diamondsatu = "50 ðŸ’Ž = 8.000"
+const diamonddua = "70 ðŸ’Ž = 10.000"
+const diamondtiga = "100 ðŸ’Ž = 15.000"
+const diamondempat = "140 ðŸ’Ž = 20.000"
+const diamondlima = "355 ðŸ’Ž = 50.000"
+const diamondenam = "720 ðŸ’Ž = 100.000"
 
 //Setting Rekber // Lu Ubah Aja Soalnya Gw Bukan Anak JB:v //
 const rekbera = "0-49K : 5K"
@@ -157,7 +157,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const chats = (type === 'conversation' && msg.message.conversation) ? msg.message.conversation : (type == 'imageMessage') && msg.message.imageMessage.caption ? msg.message.imageMessage.caption : (type == 'documentMessage') && msg.message.documentMessage.caption ? msg.message.documentMessage.caption : (type == 'videoMessage') && msg.message.videoMessage.caption ? msg.message.videoMessage.caption : (type == 'extendedTextMessage') && msg.message.extendedTextMessage.text ? msg.message.extendedTextMessage.text : (type == 'buttonsResponseMessage' && msg.message.buttonsResponseMessage.selectedButtonId) ? msg.message.buttonsResponseMessage.selectedButtonId : (type == 'templateButtonReplyMessage') && msg.message.templateButtonReplyMessage.selectedId ? msg.message.templateButtonReplyMessage.selectedId : ''
 		const toJSON = j => JSON.stringify(j, null,'\t')
 		if (conn.multi) {
-			var prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
+			var prefix = /^[Â°â€¢Ï€Ã·Ã—Â¶âˆ†Â£Â¢â‚¬Â¥Â®â„¢âœ“_=|~!?#$%^&.+-,\/\\Â©^]/.test(chats) ? chats.match(/^[Â°â€¢Ï€Ã·Ã—Â¶âˆ†Â£Â¢â‚¬Â¥Â®â„¢âœ“_=|~!?#$%^&.+-,\/\\Â©^]/gi) : '#'
 		} else {
 			if (conn.nopref) {
 				prefix = ''
@@ -172,7 +172,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const isCmd = command.startsWith(prefix)
 		const isGroup = msg.key.remoteJid.endsWith('@g.us')
 		const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-		const isOwner = ownerNumber == sender ? true : [`${ownerNumber}@s.whatsapp.net`, "6285921165857@s.whatsapp.net"].includes(sender) ? true : false
+		const isOwner = ownerNumber == sender ? true : [`${ownerNumber}@s.whatsapp.net`, "6283830815715@s.whatsapp.net"].includes(sender) ? true : false
 		const pushname = msg.pushName
 		const q = chats.slice(command.length + 1, chats.length)
 		const body = chats.startsWith(prefix) ? chats : ''
@@ -256,12 +256,12 @@ module.exports = async(conn, msg, m, setting, store) => {
            var url = await yts(query)
            url = url.videos[0].url
            hxz.youtube(url).then(async(data) => {
-             /*var button = [{ buttonId: `/ytmp3 ${url}`, buttonText: { displayText: `🎵 Audio (${data.size_mp3})` }, type: 1 }, { buttonId: `/ytmp4 ${url}`, buttonText: { displayText: `🎥 Video (${data.size})` }, type: 1 }]*/
-             /*conn.sendMessage(from, { caption: `*Title :* ${data.title}\n*Quality :* ${data.quality}\n*Url :* https://youtu.be/${data.id}`, location: { jpegThumbnail: await getBuffer(data.thumb) }, buttons: button, footer: 'Pilih Salah Satu Button Dibawah⬇️', mentions: [sender] })*/
+             /*var button = [{ buttonId: `/ytmp3 ${url}`, buttonText: { displayText: `ðŸŽµ Audio (${data.size_mp3})` }, type: 1 }, { buttonId: `/ytmp4 ${url}`, buttonText: { displayText: `ðŸŽ¥ Video (${data.size})` }, type: 1 }]*/
+             /*conn.sendMessage(from, { caption: `*Title :* ${data.title}\n*Quality :* ${data.quality}\n*Url :* https://youtu.be/${data.id}`, location: { jpegThumbnail: await getBuffer(data.thumb) }, buttons: button, footer: 'Pilih Salah Satu Button Dibawahâ¬‡ï¸', mentions: [sender] })*/
            var button = [
 		        	{ urlButton: { displayText: `Source`, url : `https://youtu.be/${data.id}` } },
-	         		{ quickReplyButton: { displayText: `🎵 Audio (${data.size_mp3})`, id: `${prefix}ytmp3 ${url}` } },
-	         		{ quickReplyButton: { displayText: `🎥 Video (${data.size})`, id: `${prefix}ytmp4 ${url}` } },
+	         		{ quickReplyButton: { displayText: `ðŸŽµ Audio (${data.size_mp3})`, id: `${prefix}ytmp3 ${url}` } },
+	         		{ quickReplyButton: { displayText: `ðŸŽ¥ Video (${data.size})`, id: `${prefix}ytmp4 ${url}` } },
 		]
              conn.sendMessage(from, { caption: `*Title :* ${data.title}\n*Quality :* ${data.quality}\n*Url :* https://youtu.be/${data.id}`, location: { jpegThumbnail: await getBuffer(data.thumb) }, templateButtons: button, footer: 'Pilih Salah Satu Button Dibawah', mentions: [sender]} )
            }).catch((e) => {
@@ -325,13 +325,13 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const buttonsDefault = [
 			{ urlButton: { displayText: `${namagrup}`, url : `${grup}` } },
 			{ urlButton: { displayText: `Nomer Owner`, url : `${nomorown}` } },
-			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
+			{ quickReplyButton: { displayText: `ðŸ’° Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Script`, id: `${prefix}sc` } },
 		]
 		const button5 = [
 			{ callButton: { displayText: `Number Owner`, phoneNumber: `${numown}` } },
 			{ urlButton: { displayText: `${namagrup}`, url : `${grup}` } },
-			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
+			{ quickReplyButton: { displayText: `Back To Menu ðŸ”™`, id: `${prefix}menu` } },
 		]
 		const buttonsSewa = [
 			{ urlButton: { displayText: `${namagrup}`, url : `${grup}` } },
@@ -497,7 +497,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		  }
 		}
 if (chats.startsWith("@37258266435")){
-	/*conn.sendMessage(from, { react: { text: `😍`, key: msg.key }})*/
+	/*conn.sendMessage(from, { react: { text: `ðŸ˜`, key: msg.key }})*/
    conn.sendMessage(from, { audio: {url : `https://d.top4top.io/m_22231oj7h1.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
 		if (chats.startsWith("> ") && isOwner) {
@@ -548,7 +548,7 @@ if (chats.startsWith("@37258266435")){
 			  /*conn.sendMessage(from, { audio: fs.readFileSync('audio/Menu.m4a'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})*/
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
 			    
-				/*conn.sendMessage(from, { react: { text: `👋`, key: msg.key }})*/
+				/*conn.sendMessage(from, { react: { text: `ðŸ‘‹`, key: msg.key }})*/
 conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: buttonsMenu, footer: `${footer}`, mentions: [sender] })
 				break
 case prefix+'delete':
@@ -569,16 +569,16 @@ case prefix+'donasiah':
 case prefix+'donasi':
   case prefix+'donate':
   var donasibut = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+			{ urlButton: { displayText: `Group Yakuzaa`, url : `${grup}` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
-var teks = `  │
-  ├─ ❏ GOPAY
-  ├─ ❏ ${gopay}
-  ├─ ❏ PULSA
-  ├─ ❏ ${pulsa}
-  ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/${insta}
+var teks = `  â”‚
+  â”œâ”€ â GOPAY
+  â”œâ”€ â ${gopay}
+  â”œâ”€ â PULSA
+  â”œâ”€ â ${pulsa}
+  â”œâ”€ â INSTAGRAM
+  â””â”€ â https://www.instagram.com/${insta}
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`
@@ -600,8 +600,8 @@ _Yakin kamu mau daftar ke premium?_
 - Rp. 8.000 - 1 Tahun`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/premium.jpg') }, templateButtons: button5, footer: 'DAFTAR PREM UNTUK AKSES FITUR PREMIUM', mentions: [sender] })
 			    break
-//Store Menu By Christian ID
-case prefix+'listff': //By Christian ID
+//Store Menu By Kyy
+case prefix+'listff': //By Kyy
   var teks = `*[ LIST DIAMOND FREE FIRE ]*
 
  ${diamondsatu}
@@ -617,7 +617,7 @@ case prefix+'listff': //By Christian ID
 *Jika Ingin Order Klick Button Dibawah Atau Ketik ${prefix}formatid*`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/ff.jpg') }, templateButtons: buttonsDiamondFF, footer: 'LIST DIAMOND FF', mentions: [sender] })
 			    break
-case prefix+'rekber': //By Christian ID
+case prefix+'rekber': //By Kyy
   var teks = `*[ LIST HARGA REKBER ]*
 
  ${rekbera}
@@ -630,11 +630,11 @@ case prefix+'rekber': //By Christian ID
  ${rekberh}`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/rekber.jpg') }, templateButtons: buttonsRekber, footer: 'LIST REKBER', mentions: [sender] })
 			    break
-case prefix+'formatid': // By Christian ID
+case prefix+'formatid': // By Kyy
   reply(`*[ FORMAT FF ]*\n\nID Game = \nNick Game = \nJumlah Diamond = \nPembayaran Via = \n\n*Kirim Formulir Ini Ke ${nomor}*`)
   break
-case prefix+'sc': //By Christian ID
-  var teks = `*── 「 SOURCE CODE 」 ──*
+case prefix+'sc': //By Kyy
+  var teks = `*â”€â”€ ã€Œ SOURCE CODE ã€ â”€â”€*
 
 *Script : https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg*
 
@@ -645,41 +645,41 @@ case prefix+'sc': //By Christian ID
 _Sc Versi 2 Berpassword Syarat : Subscribe https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg Dan Screenshot Kirim Ke Owner_`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: button5, footer: `${footer}`, mentions: [sender] })
 			    break
-case prefix+'rules': //By Christian ID
-  var teks = `*── 「 RULES AND FAQ 」 ──*
+case prefix+'rules': //By Kyy
+  var teks = `*â”€â”€ ã€Œ RULES AND FAQ ã€ â”€â”€*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
+1. Jangan spam bot. ðŸ™…
+Sanksi: *âŽ WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. Jangan telepon bot. â˜Žï¸
+Sanksi: *âŽ SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
+3. Jangan mengeksploitasi bot.ðŸ˜–
 Sanksi: *PERMANENT BLOCK*
 
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
+ðŸ—¯ï¸ Bot tidak atau lambat merespon ?
+âž¡ï¸ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rulesâ€¼ï¸
 
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
+ðŸ—¯ï¸ Dimana saya bisa mendapatkan Script dari bot ini ?
+âž¡ï¸ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
 
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
+ðŸ—¯ï¸ Prefixnya apa ya?
+âž¡ï¸ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
 
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+ðŸ—¯ï¸ Kak, kok syaa chat owner tidak direspon?
+âž¡ï¸ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
 
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Izumi Bot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*)
+âš ï¸ Segala kebijakan dan ketentuan Yakuzaa di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*ï¹*)
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Izumi Bot
-😖🙏`
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Yakuzaa
+ðŸ˜–ðŸ™`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/rules.jpg') }, templateButtons: button5, footer: 'PATUHI RULES YANG ADA JANGAN LANGGAR RULES NYA JIKA MELANGGAR ADA AKIBAT NYA', mentions: [sender] })
 			    break
-case prefix+'sewabot': //By Christian ID
-  var teks = `*── 「 SEWA BOT 」 ──*
+case prefix+'sewabot': //By Kyy
+  var teks = `*â”€â”€ ã€Œ SEWA BOT ã€ â”€â”€*
 
 *Harga Sewa*
 7 Hari = ${tujuhhari}
@@ -697,24 +697,24 @@ Permanen = ${permanen}
 
 *_Untuk Konfirmasi Saldo Hubungi Owner Silakan Klick Link Di Bawah_*
 *_${nomor}_*`
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/sewa.jpg') }, templateButtons: buttonsSewa, footer: `© Sewa Bot ${nameown}`, mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/sewa.jpg') }, templateButtons: buttonsSewa, footer: `Â© Sewa Bot ${nameown}`, mentions: [sender] })
 			    break
 case prefix+'runtime':
 case prefix+'tes':
-  var teks = `*── 「 TES STATUS BOT 」 ──*
+  var teks = `*â”€â”€ ã€Œ TES STATUS BOT ã€ â”€â”€*
 
 
 *[ STATUS BOT ONLINE ]*
 *_Runtime : ${runtime(process.uptime())}_*`
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/tes.jpg') }, templateButtons: buttonsSewa, footer: `© Bot By ${nameown}`, mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/tes.jpg') }, templateButtons: buttonsSewa, footer: `Â© Bot By ${nameown}`, mentions: [sender] })
 			    break
-case prefix+'claim': //By Christian ID
+case prefix+'claim': //By Kyy
   var htgm = randomNomor(500, 550)
   addBalance(sender, htgm, balance)
   reply(`Selamat Anda Mendapatkan ${htgm} Balance`)
   break
 case prefix+'groupizumi':
-  reply(`Group Izumi Bot\n${grup}`)
+  reply(`Group Yakuzaa\n${grup}`)
   break
 			case prefix+'speed':
 			  reply("Testing Speed...")
@@ -725,10 +725,10 @@ case prefix+'groupizumi':
 case prefix+'infobot':
   case prefix+'inforobot':
     case prefix+'info':
-      var caption = `*[ INFO IZUMI BOT ]*
+      var caption = `*[ INFO Yakuzaa ]*
 
-*Nama Bot :* Izumi - MD
-*Name Owner :* Christian ID
+*Nama Bot :* Yakuzaa - MD
+*Name Owner :* Kyy
 *Nomor Bot :* wa.me/${nobot}
 *Nomor Owner :* wa.me/${ownerNumber}
 *Engine :* NodeJs
@@ -739,7 +739,7 @@ case prefix+'infobot':
 Thanks To
 - Riyan
 - Arasya
-- Christian ID
+- Kyy
 - Amel
 - Hardianto
 - Febri`
@@ -748,18 +748,18 @@ conn.sendMessage(from, {caption: caption, location: fs.readFileSync('media/chris
 break
 			/*case prefix+'donate':
 			case prefix+'donasi':
-			    reply(`◪ DONASI
-  │
-  ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
-  ├─ ❏ OVO
-  ├─ ❏ 088213292687
-  ├─ ❏ PULSA
-  ├─ ❏ 081319944917
-  ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
-  ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/chris.tianid
+			    reply(`â—ª DONASI
+  â”‚
+  â”œâ”€ â GOPAY
+  â”œâ”€ â 088213292687
+  â”œâ”€ â OVO
+  â”œâ”€ â 088213292687
+  â”œâ”€ â PULSA
+  â”œâ”€ â 081319944917
+  â”œâ”€ â PULSA2
+  â”œâ”€ â 088213292687
+  â”œâ”€ â INSTAGRAM
+  â””â”€ â https://www.instagram.com/chris.tianid
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
@@ -770,8 +770,8 @@ break
 			    }
 			    /*conn.sendMessage(from, { audio: {url : `https://b.top4top.io/m_2223iin241.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})*/
 			    var owncuy = [
-			{ quickReplyButton: { displayText: `♨️ Instagram`, id: `${prefix}igowner` } },
-			{ quickReplyButton: { displayText: `🌐 Github`, id: `${prefix}githubown` } },
+			{ quickReplyButton: { displayText: `â™¨ï¸ Instagram`, id: `${prefix}igowner` } },
+			{ quickReplyButton: { displayText: `ðŸŒ Github`, id: `${prefix}githubown` } },
 		]
 		conn.sendMessage(from, {text: `Ingin bertanya tanya tentang apa?`, templateButtons: owncuy, footer: `My Name : ${nameowner}`, mentions: [sender]} )
 			    break
@@ -958,7 +958,7 @@ case prefix+'ytmp4': case prefix+'mp4':
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 			    xfar.Youtube(args[1]).then( data => {
-			      //var teks = `*Youtube Video Downloader*\n\n*≻ Title :* ${data.title}\n*≻ Quality :* ${data.medias[1].quality}\n*≻ Size :* ${data.medias[1].formattedSize}\n*≻ Url Source :* ${data.url}`
+			      //var teks = `*Youtube Video Downloader*\n\n*â‰» Title :* ${data.title}\n*â‰» Quality :* ${data.medias[1].quality}\n*â‰» Size :* ${data.medias[1].formattedSize}\n*â‰» Url Source :* ${data.url}`
 			      var teks = `Succes`
 			      conn.sendMessage(from, { video: { url: data.medias[1].url }, caption: teks }, { quoted: msg })
 			      limitAdd(sender, limit)
@@ -971,7 +971,7 @@ case prefix+'ytmp4': case prefix+'mp4':
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 			    xfar.Youtube(args[1]).then( data => {
-			      var teks = `*Youtube Audio Downloader*\n\n*≻ Title :* ${data.title}\n*≻ Quality :* ${data.medias[7].quality}\n*≻ Size :* ${data.medias[7].formattedSize}\n*≻ Url Source :* ${data.url}\n\n_wait a minute sending media..._`
+			      var teks = `*Youtube Audio Downloader*\n\n*â‰» Title :* ${data.title}\n*â‰» Quality :* ${data.medias[7].quality}\n*â‰» Size :* ${data.medias[7].formattedSize}\n*â‰» Url Source :* ${data.url}\n\n_wait a minute sending media..._`
 			      conn.sendMessage(from, { audio: { url: data.medias[7].url }, mimetype: 'audio/mp4' }, { quoted: msg })
 			      limitAdd(sender, limit)
 				}).catch(() => reply(mess.error.api))
@@ -985,7 +985,7 @@ case prefix+'ytmp3':
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 				y2mateA(q).then( data => {
-					var capt = `📛 *Title :* ${data[0].judul}\n🔰 *Size Audio :* ${data[0].size}\n\n_Tunggu sebentar audio akan di kirim...._`
+					var capt = `ðŸ“› *Title :* ${data[0].judul}\nðŸ”° *Size Audio :* ${data[0].size}\n\n_Tunggu sebentar audio akan di kirim...._`
 					conn.sendMessage(from, {caption: capt, image: {url: data[0].thumb}}, {quoted: msg}) 
 					
 					conn.sendMessage(from, { document: { url: data[0].link }, fileName: `${data[0].judul}.mp3`, mimetype: 'audio/mp3' }, { quoted: msg })
@@ -1000,7 +1000,7 @@ limitAdd(sender, limit)
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 				y2mateA(q).then( data => {
-					var capt = `📛 *Title :* ${data[0].judul}\n🔰 *Size Video :* ${data[0].size}\n⤵️ *Download :* ${data[0].link}\n\n_Tunggu sebentar audio akan di kirim...._`
+					var capt = `ðŸ“› *Title :* ${data[0].judul}\nðŸ”° *Size Video :* ${data[0].size}\nâ¤µï¸ *Download :* ${data[0].link}\n\n_Tunggu sebentar audio akan di kirim...._`
 					conn.sendMessage(from, {caption: capt, image: {url: data[0].thumb}}, {quoted: msg}) 
 					
 					conn.sendMessage(from, {audio: {url: data[0].link}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
@@ -1022,7 +1022,7 @@ limitAdd(sender, limit)
                 if (args[1] > arrey.length) return reply(`Urutan Hasil *${prefix}ytsearch* Hanya Sampai *${arrey.length}*`)
 			    reply(mess.wait)
 			    xfar.Youtube(`https://youtube.com/watch?v=${arrey[args[1] -1]}`).then( data => {
-			      var teks = `*Youtube Video Downloader*\n\n*≻ Title :* ${data.title}\n*≻ Quality :* ${data.medias[1].quality}\n*≻ Size :* ${data.medias[1].formattedSize}\n*≻ Url Source :* ${data.url}\n\n_wait a minute sending media..._`
+			      var teks = `*Youtube Video Downloader*\n\n*â‰» Title :* ${data.title}\n*â‰» Quality :* ${data.medias[1].quality}\n*â‰» Size :* ${data.medias[1].formattedSize}\n*â‰» Url Source :* ${data.url}\n\n_wait a minute sending media..._`
 			      conn.sendMessage(from, { video: { url: data.medias[1].url }, caption: teks }, { quoted: msg })
 			       limitAdd(sender, limit)
 				}).catch(() => reply(mess.error.api))
@@ -1040,7 +1040,7 @@ limitAdd(sender, limit)
                 if (args[1] > arrey.length) return reply(`Urutan Hasil *${prefix}ytsearch* Hanya Sampai *${arrey.length}*`)
 			    reply(mess.wait)
 			    y2mateA(`https://youtube.com/watch?v=${arrey[args[1] -1]}`).then( data => {
-			      var teks = `*Youtube Audio Downloader*\n\n*≻ Title :* ${data[0].judul}\n*≻ Quality :* ${data[0].quality}\n*≻ Size :* ${data.medias[0].size}\n\n_wait a minute sending media..._`
+			      var teks = `*Youtube Audio Downloader*\n\n*â‰» Title :* ${data[0].judul}\n*â‰» Quality :* ${data[0].quality}\n*â‰» Size :* ${data.medias[0].size}\n\n_wait a minute sending media..._`
 			      conn.sendMessage(from, { image: { url: data[0].thumbnail }, caption: teks }, { quoted: msg })
 			      conn.sendMessage(from, { document: { url: data[0].link }, fileName: `${data[0].judul}.mp3`, mimetype: 'audio/mp3' }, { quoted: msg })
 			      limitAdd(sender, limit)
@@ -1152,7 +1152,7 @@ case prefix+'bc': case prefix+'broadcast':
 			var kotes = JSON.parse(fs.readFileSync('./fitur/katagalau.json'))
 var hasil = pickRandom(kotes)
 var quot = [
-			{ quickReplyButton: { displayText: `Next Kata Galau ➡️`, id: `${prefix}katagalau` } },
+			{ quickReplyButton: { displayText: `Next Kata Galau âž¡ï¸`, id: `${prefix}katagalau` } },
 		]
 		conn.sendMessage(from, {text: hasil, templateButtons: quot, footer: 'Galau Mulu', mentions: [sender]} )
 		limitAdd(sender, limit)
@@ -1164,7 +1164,7 @@ case prefix+'quotes':
 			var kotes2 = JSON.parse(fs.readFileSync('./fitur/quotes.json'))
 var hasil = pickRandom(kotes2)
 var quot = [
-			{ quickReplyButton: { displayText: `Next Quotes ➡️`, id: `${prefix}quote` } },
+			{ quickReplyButton: { displayText: `Next Quotes âž¡ï¸`, id: `${prefix}quote` } },
 		]
 		
 		conn.sendMessage(from, {text: hasil.quotes, templateButtons: quot, footer: `~ ${hasil.author}`, mentions: [sender]} )
@@ -1177,7 +1177,7 @@ case prefix+'covid': case prefix+'covid19': case prefix+'kopit':
    conn.sendMessage(from, {caption: captnya, image: { url: `https://telegra.ph/file/86b3b90581f9d31353b62.jpg`}}, {quoted: msg})
    limitAdd(sender, limit)
    break
-//Persingkat Url By Christian ID
+//Persingkat Url By Kyy
 case prefix+'shortlink':
   if (args.length < 2) return reply(`Kirim perintah ${command} link`)
   if (!isUrl(args[1])) return reply("Masukan Link")
@@ -1226,7 +1226,7 @@ case prefix+'kbbi':
 			    reply(`Kata : ${kbbi}\nArti : ${data.result.arti}`)
 				limitAdd(sender, limit)
 				break
-//Primbon Menu By Christian ID
+//Primbon Menu By Kyy
 case prefix+'artimimpi':
   if (args.length < 2) return reply(`Kirim perintah ${command} jembatan`)
 			    if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
@@ -1364,7 +1364,7 @@ case prefix+'husbu':
  Untuk mengambil Audio/Video dari hasil pencarian`
                 for (let i = 0; i < jumlah; i++) {
 				  no += 1
-				  txt += `\n─────────────────\n\n*No Urutan : ${no.toString()}*\n*▢ Judul :* ${yt[i].title}\n*▢ ID :* ${yt[i].videoId}\n*▢ Channel :* ${yt[i].author.name}\n*▢ Upload :* ${yt[i].ago}\n*▢ Ditonton :* ${yt[i].views}\n*▢ Duration :* ${yt[i].timestamp}\n*▢ URL :* ${yt[i].url}\n`
+				  txt += `\nâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\n\n*No Urutan : ${no.toString()}*\n*â–¢ Judul :* ${yt[i].title}\n*â–¢ ID :* ${yt[i].videoId}\n*â–¢ Channel :* ${yt[i].author.name}\n*â–¢ Upload :* ${yt[i].ago}\n*â–¢ Ditonton :* ${yt[i].views}\n*â–¢ Duration :* ${yt[i].timestamp}\n*â–¢ URL :* ${yt[i].url}\n`
 				}
 				conn.sendMessage(from, { image: { url: yt[0].image }, caption: txt }, { quoted: msg })
 				limitAdd(sender, limit)
@@ -1374,7 +1374,7 @@ case prefix+'husbu':
 case prefix+'report':
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
         if (args.length < 2) return reply(`Kirim perintah ${command} laporan`)
-        reply(`Sukses Kirim Ke Owner, Main² banned!`)
+        reply(`Sukses Kirim Ke Owner, MainÂ² banned!`)
         for (let i of ownerNumber) {
             conn.reply(i, `*[ USER REPORTS ]*\nThe Message : ${q}`, msg)
         }
@@ -1397,7 +1397,7 @@ case prefix+'join':
         }
         limitAdd(sender, limit)
         break
-// By Christian ID
+// By Kyy
 case prefix+'wame':
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 if (args.length < 2) return reply(`Kirim perintah ${command} 62899xxxxxxxx`)
@@ -1416,7 +1416,7 @@ if (args.length < 2) return reply(`Kirim perintah ${command} TianBot1`)
 reply(`*[ GITHUB ]*\n*_Link : https://github.com/${q}_*`)
 limitAdd(sender, limit)
 break
-//Sound Menu By Christian ID
+//Sound Menu By Kyy
 case prefix+'sound1':
 conn.sendMessage(from, { audio: fs.readFileSync('audio/sound1.mp3'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 break
@@ -1435,7 +1435,7 @@ break
 //game & fun menu
 //suit menu
 case prefix+'suit':
-  var but = [{buttonId: `#sbatu`, buttonText: { displayText: "Batu ✊" }, type: 1 }, {buttonId: `#sgunting`, buttonText: { displayText: "Gunting ✌️" }, type: 1 }, {buttonId: `#skertas`, buttonText: { displayText: "Kertas ✋" }, type: 1 }]
+  var but = [{buttonId: `#sbatu`, buttonText: { displayText: "Batu âœŠ" }, type: 1 }, {buttonId: `#sgunting`, buttonText: { displayText: "Gunting âœŒï¸" }, type: 1 }, {buttonId: `#skertas`, buttonText: { displayText: "Kertas âœ‹" }, type: 1 }]
   var sutit = `*[ GAME SUIT ]*\n\nNOTE : *KAMU MEMILIKI 3 BUTTON DAN 3 KESEMPATAN UNTUK MEMILIH ANTARA BATU GUNTING KERTAS*\n*JIKA KAMU MEMENANGKAN 3 KESEMPATAN PERMAINAN BATU GUNTING KERTAS*\n*KAMU MENANG!!*`
 conn.sendMessage(from, { text: sutit, buttons: but, footer: "Pilih Button Di Bawah\n\n- _Jika Kamu Pakai WhatsApp Mod Langsung Saja Ketik #sgunting, #sbatu, #skertas_", templateButtons: but }, {quoted: msg})
 break
@@ -1467,85 +1467,85 @@ break
 case prefix+'slot':
   if (isGame(sender, isOwner, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
   const pepekk = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🥑 : 🥑 : 🥑 Win👑',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🌶️ : 🌶️ : 🌶️ Win👑',
-        '🍋 : 🍋 : 🍋 Win👑',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔',
-        '🍌 : 🍌 : 🍌 Win👑'
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //Arasya
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ¥‘ : ðŸ¥‘ : ðŸ¥‘ WinðŸ‘‘',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸŒ¶ï¸ : ðŸŒ¶ï¸ : ðŸŒ¶ï¸ WinðŸ‘‘',
+        'ðŸ‹ : ðŸ‹ : ðŸ‹ WinðŸ‘‘',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””',
+        'ðŸŒ : ðŸŒ : ðŸŒ WinðŸ‘‘'
         ]
   const kalah = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔',
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //Arasya
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””',
         ]
  const kalah2 = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔',
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //Arasya
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””',
         ]
         const selot = pepekk[Math.floor(Math.random() * pepekk.length)]
         const kalahnya = kalah[Math.floor(Math.random() * kalah.length)]
         const kalahnya2 = kalah2[Math.floor(Math.random() * kalah2.length)]
-        var slotnya = `*[ 🎰 GAME SLOT 🎰 ]*
+        var slotnya = `*[ ðŸŽ° GAME SLOT ðŸŽ° ]*
 
 ${kalahnya}
 ${selot}
 ${kalahnya2}
 
 Note : Jika Kamu Mendapatkan Item Yang Sama, Kamu Menang!!!
-Contoh : 🔔 : 🔔 : 🔔`
+Contoh : ðŸ”” : ðŸ”” : ðŸ””`
         var but = [{buttonId: `${command}`, buttonText: { displayText: "Kembali Slot" }, type: 1 }]
-conn.sendMessage(from, { text: slotnya, buttons: but, footer: "© Slot By Christian\n@chris.tianid", templateButtons: but }, {quoted: msg})
+conn.sendMessage(from, { text: slotnya, buttons: but, footer: "Â© Slot By Christian\n@chris.tianid", templateButtons: but }, {quoted: msg})
 gameAdd(sender, glimit)
         break
 case prefix+'cekme':
   case prefix+'me':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-  const ganteng = ['Cakep ✔️','Jelek Anjrit ❌']
+  const ganteng = ['Cakep âœ”ï¸','Jelek Anjrit âŒ']
   const sifat = ['Pembohong','Galak','Suka Bantu Orang','Baik','Jahat:(','Bobrok','Suka BadMood','Setia','Tulus','Beriman','Penyayang Binatang','Baperan']
   const suka = ['Makan','Tidur','Main Game','Sesama Jenis','Binatang',`Seseorang Yang ${pushname} Sukai`,'Belajar','Ibadah','Diri Sendiri']
   const nomernyah = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','31','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','82','84','84','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1653,7 +1653,7 @@ case prefix+'kapankah':
 conn.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : *${kapankah}*` }, { quoted: msg })
 limitAdd(sender, limit)
 					break
-case prefix+'cekbapak': // By Christian ID
+case prefix+'cekbapak': // By Kyy
 					const bapak = ['Wah Mantap Lu Masih Punya Bapack\nPasti Bapack Nya Kuli :v\nAwowkwokwwok\n#CandabOs', 'Aowkwwo Disini Ada Yteam :v\nLu Yteam Bro? Awowkwowk\nSabar Bro Ga Punya Bapack\n#Camda', 'Bjir Bapack Mu Ternyata Sudah Cemrai\nSedih Bro Gua Liatnya\nTapi Nih Tapi :v\nTetep Ae Lu Yteam Aowkwowkw Ngakak :v', 'Jangan #cekbapak Mulu Broo :v\nKasian Yang Yteam\nNtar Tersinggung Kan\nYahahaha Hayyuk By : Liaa Cans']
 					const cekbapak = bapak[Math.floor(Math.random() * bapak.length)]
 					conn.sendMessage(from, { text: `Pertanyaan : Cek Bapak\nJawaban : ${cekbapak}` }, { quoted: msg })
@@ -1674,7 +1674,7 @@ case prefix+'cekbapak': // By Christian ID
 						hadiah: hadiah,
                         penantang: sender,
                         ditantang: mentionByTag[0],
-                        TicTacToe: ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣']
+                        TicTacToe: ['1ï¸âƒ£','2ï¸âƒ£','3ï¸âƒ£','4ï¸âƒ£','5ï¸âƒ£','6ï¸âƒ£','7ï¸âƒ£','8ï¸âƒ£','9ï¸âƒ£']
                      })
 					 gameAdd(sender, glimit)
                 } else {
@@ -2016,7 +2016,7 @@ case prefix+'antiwamea':
 			// Bank & Payment Menu
 			case prefix+'topbalance':{
                 balance.sort((a, b) => (a.balance < b.balance) ? 1 : -1)
-                let top = '*── 「 TOP BALANCE 」 ──*\n\n'
+                let top = '*â”€â”€ ã€Œ TOP BALANCE ã€ â”€â”€*\n\n'
                 let arrTop = []
 				var total = 20
 				if (balance.length < 10) total = balance.length
@@ -2111,7 +2111,7 @@ case prefix+'ssdesktop':
 case prefix+'nuliskanan':
   var kanan = chats.slice(11)
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\n⚠️ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
+  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\nâš ï¸ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
   reply(mess.wait)
   conn.sendMessage(from, { image: { url: `https://hadi-api.herokuapp.com/api/canvas/nulis?text=${kanan}`}})
   limitAdd(sender, limit)
@@ -2119,7 +2119,7 @@ case prefix+'nuliskanan':
 case prefix+'foliokiri':
   var fkiri = chats.slice(10)
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\n⚠️ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
+  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\nâš ï¸ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
   reply(mess.wait)
   conn.sendMessage(from, { image: { url: `https://hadi-api.herokuapp.com/api/canvas/nulis2?text=${fkiri}`}})
   limitAdd(sender, limit)
@@ -2128,7 +2128,7 @@ case prefix+'nulis':
   case prefix+'tulis':
     case prefix+'menulis':
 reply(`*[ COMMAND NOT FOUND ]*
-Command Salah ❌
+Command Salah âŒ
 Silahkan Pilih Type Buku/Folio Berikut
 
 - ${prefix}foliokiri <Text>
@@ -2195,7 +2195,7 @@ var ahegao = JSON.parse(fs.readFileSync('./fitur/nsfw/ahegao.json'))
 var hasil = pickRandom(ahegao)
 conn.sendMessage(from, {caption: `Sange kok sama gambar`, image: {url: hasil}}, {quoted: msg})
 break 
-///MAKER MENU BY JOJO AND CHRISTIAN ID!!!
+///MAKER MENU BY JOJO AND Kyy!!!
 case prefix+'glitch':
   if (args.length < 2) return reply(`Kirim perintah ${command} <Text1> <Text2>`)
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
@@ -2217,208 +2217,208 @@ case prefix+'shadow':
 conn.sendMessage(from, {caption: `${capt}`, image: { url: `https://hadi-api.herokuapp.com/api/photoxy/shadow-sky?text=${q}`}}, {quoted: msg})
 limitAdd(sender, limit)
 break
-case prefix+'goldenroses': // By Christian ID
+case prefix+'goldenroses': // By Kyy
   if (args.length < 2) return reply(`Kirim perintah ${command} <Text1>`)
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
   reply("Tunggu Sebentar Sedang Membuat Makernya Sekitar 1 Menit Kurang")
 conn.sendMessage(from, {caption: `${capt}`, image: { url: `https://hadi-api.herokuapp.com/api/photoxy/golden-roses?text=${q}`}}, {quoted: msg})
 limitAdd(sender, limit)
 break
-case prefix+'youtubegold': // By Christian ID
+case prefix+'youtubegold': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/maker/goldbutton?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'youtubesilver': // By Christian ID
+case prefix+'youtubesilver': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/maker/silverbutton?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`,  image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'thunder': // By Christian ID
+case prefix+'thunder': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/thunder2?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'neonlight': // By Christian ID
+case prefix+'neonlight': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/neon-light?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'neondevil': // By Christian ID
+case prefix+'neondevil': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/neon-devil?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'hallowen': // By Christian ID
+case prefix+'hallowen': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/hallowen-text?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'skytext': // By Christian ID
+case prefix+'skytext': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/sky-text?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'holografic': // By Christian ID
+case prefix+'holografic': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/holograpic?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'grafity': // By Christian ID
+case prefix+'grafity': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/grafity-text?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'christmas': // By Christian ID
+case prefix+'christmas': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/christmas?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'luxury': // By Christian ID
+case prefix+'luxury': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/luxury?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'harrypotter': // By Christian ID
+case prefix+'harrypotter': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/harry-potter?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'brokenglass': // By Christian ID
+case prefix+'brokenglass': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/broken-glass?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'artpapper': // By Christian ID
+case prefix+'artpapper': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/art-papper?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'watercolor': // By Christian ID
+case prefix+'watercolor': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/water-color?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'glossymaker': // By Christian ID
+case prefix+'glossymaker': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/glossy?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'multicolor': // By Christian ID
+case prefix+'multicolor': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/multi-color?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'deluxesilver': // By Christian ID
+case prefix+'deluxesilver': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/deluxe-silver?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'gluetext': // By Christian ID
+case prefix+'gluetext': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/glue-text?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'fabric': // By Christian ID
+case prefix+'fabric': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/fabric?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'engraved': // By Christian ID
+case prefix+'engraved': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/engraved?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'writing': // By Christian ID
+case prefix+'writing': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/writing?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'wicker': // By Christian ID
+case prefix+'wicker': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/wicker?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'larva': // By Christian ID
+case prefix+'larva': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/larva?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'toxic': // By Christian ID
+case prefix+'toxic': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/toxic-bokeh?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'koipish': // By Christian ID
+case prefix+'koipish': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/koi?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'strobery': // By Christian ID
+case prefix+'strobery': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/stroberi?text=$q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'jokerlogo': // By Christian ID
+case prefix+'jokerlogo': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *${nameown}`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/joker-logo?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'ninjalogo': // By Christian ID
+case prefix+'ninjalogo': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *text1 | text2*`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var text1 = q.split('|')[0] ? q.split('|')[0] : q
@@ -2428,7 +2428,7 @@ var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/n
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'vintage': // By Christian ID
+case prefix+'vintage': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *text1 | text2*`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var text1 = q.split('|')[0] ? q.split('|')[0] : q
@@ -2438,7 +2438,7 @@ var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/v
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'lionlogo': // By Christian ID
+case prefix+'lionlogo': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *text1 | text2*`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var text1 = q.split('|')[0] ? q.split('|')[0] : q
@@ -2448,7 +2448,7 @@ var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/l
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'avengers': // By Christian ID
+case prefix+'avengers': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *text1 | text2*`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var text1 = q.split('|')[0] ? q.split('|')[0] : q
@@ -2458,7 +2458,7 @@ var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/textpro/a
 reply(mess.wait)
 conn.sendMessage(from, {caption: `${capt}`, image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'pornhub': // By Christian ID
+case prefix+'pornhub': // By Kyy
 if (args.length < 2) return reply(`Kirim perintah ${command} *text1 | text2*`)
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var text1 = q.split('|')[0] ? q.split('|')[0] : q
@@ -2553,32 +2553,32 @@ case prefix+'woodheart':
 conn.sendMessage(from, {caption: `${capt}`, image: { url: `https://hadi-api.herokuapp.com/api/photoxy/wood-hearth?text=${q}`}}, {quoted: msg})
 limitAdd(sender, limit)
 break
-//PHOTO OXY BY CHRISTIAN ID//
-case prefix+'army': // By Christian ID
+//PHOTO OXY BY Kyy//
+case prefix+'army': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/photooxy/army?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'matrix': // By Christian ID
+case prefix+'matrix': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/maker/matrix?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'butterfly': // By Christian ID
+case prefix+'butterfly': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/photooxy/butterfly?text={q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'burnpapper': // By Christian ID
+case prefix+'burnpapper': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/photooxy/burn-papper?text=${q}&apikey=${chrisapi}`)
 reply(mess.wait)
 conn.sendMessage(from, {image: {url: data.result}}, {quoted: msg})
 break
-case prefix+'glitcheffect': // By Christian ID
+case prefix+'glitcheffect': // By Kyy
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var data = await fetchJson(`https://christian-id-api.herokuapp.com/api/photooxy/message-under-grass?text={q}&apikey=${chrisapi}`)
 reply(mess.wait)
@@ -2598,7 +2598,7 @@ case prefix+'nabi': case prefix+'kisahnabi':
 			    reply(kisahnya)
 				limitAdd(sender, limit)
 				break
-case prefix+'quranaudio': case prefix+'quranvn':
+case prefix+'=audio': case prefix+'quranvn':
   if (args.length < 2) return reply(`Kirim perintah ${command} surah ayat\nContoh : ${command} 1 2`)
   if (isNaN(args[1])) return reply(`Harus berupa angka`)
   if (isNaN(args[2])) return reply(`Harus berupa angka`)
@@ -2773,16 +2773,16 @@ case prefix+'igstalk':
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
     if (args.length < 2) return reply(`Kirim perintah ${command} Username\nContoh : ${command} chris.tianid`)
     var data = await fetchJson(`https://hardianto.xyz/api/igstalk?username=${q}&apikey=hardianto`)
-    var caption = `*[ INSTAGRAM STALK ]*\n\n👤Username : ${data.username}\n📛 Full Name : ${data.fullname}\n✔️ Verified : ${data.verified}\n👥 Followers : ${data.followers}\n🫂 Following : ${data.follow}\n🗣️ Kategori ${data.category}\n\n${readmore} *� Izumi Bot*`
+    var caption = `*[ INSTAGRAM STALK ]*\n\nðŸ‘¤Username : ${data.username}\nðŸ“› Full Name : ${data.fullname}\nâœ”ï¸ Verified : ${data.verified}\nðŸ‘¥ Followers : ${data.followers}\nðŸ«‚ Following : ${data.follow}\nðŸ—£ï¸ Kategori ${data.category}\n\n${readmore} *© Yakuzaa*`
     conn.sendMessage(from, {caption: caption, image: {url: data.thumbnail}}, {quoted: msg})
     limitAdd(sender, limit)
     break
-case prefix+'ghstalk': //By Christian ID
+case prefix+'ghstalk': //By Kyy
   case prefix+'stalkgh':
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
     if (args.length < 2) return reply(`Kirim perintah ${command} Username\nContoh : ${command} chris.tianid`)
     var data = await fetchJson(`https://hadi-api.herokuapp.com/api/githubstalk?username=${q}`)
-    var caption = `*[ GITHUB STALK ]*\n\n Bio : ${data.result.bio}\n Company : ${data.result.company}\n Email : ${data.result.email}\n Twiter Username : ${data.result.twiter_username}\n Public Repo : ${data.result.public_repo}\n Public Gists : ${data.result.public_gists}\n Followers : ${data.result.follower}\n Following : ${data.result.following}\n Location : ${data.result.location}\n Type : ${data.result.Type}\n\n${readmore} *By Izumi Bot*`
+    var caption = `*[ GITHUB STALK ]*\n\n Bio : ${data.result.bio}\n Company : ${data.result.company}\n Email : ${data.result.email}\n Twiter Username : ${data.result.twiter_username}\n Public Repo : ${data.result.public_repo}\n Public Gists : ${data.result.public_gists}\n Followers : ${data.result.follower}\n Following : ${data.result.following}\n Location : ${data.result.location}\n Type : ${data.result.Type}\n\n${readmore} *By Yakuzaa*`
     conn.sendMessage(from, {caption: caption, image: {url: data.result.avatar}}, {quoted: msg})
     limitAdd(sender, limit)
     break
@@ -2806,14 +2806,14 @@ case prefix+'lolimaker':
    break
 case prefix+'waifumaker':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-    if (args.length < 2) return reply(`Kirim perintah ${command} Text\nContoh : ${command} Izumi bot`)
+    if (args.length < 2) return reply(`Kirim perintah ${command} Text\nContoh : ${command} Yakuzaa`)
    conn.sendMessage(from, {caption: `Premium Feature For User Free`, image: {url: `https://hardianto.xyz/api/bot/gfx4?apikey=hardianto&text1=${args[1]}&text2=${args[2]}`}}, {quoted: msg})
    limitAdd(sender, limit)
    break
 case prefix+'qrcode':
   case prefix+'qr':
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-    if (args.length < 2) return reply(`Kirim perintah ${command} Text\nContoh : ${command} Izumi bot`)
+    if (args.length < 2) return reply(`Kirim perintah ${command} Text\nContoh : ${command} Yakuzaa`)
     reply(`Membuat Qr Code`)
     conn.sendMessage(from, {caption: `*QR CODE*`, image: {url: `https://docs-jojo.herokuapp.com/api/qrcode?text=${q}`}}, {quoted: msg})
     limitAdd(sender, limit)
@@ -3005,7 +3005,7 @@ limitAdd(sender, limit)
 break
 case prefix+'suratto':
   case prefix+'surat':
-    if (args.length < 2) return reply(`Kirim perintah ${command} nomer|Suratnya\nContoh ${command} 6285921165857|Anjing\n\nAWALI DENGAN 62!`)
+    if (args.length < 2) return reply(`Kirim perintah ${command} nomer|Suratnya\nContoh ${command} 6283830815715|Anjing\n\nAWALI DENGAN 62!`)
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
   var number = q.split('|')[0] ? q.split('|')[0] : q
                 var text = q.split('|')[1] ? q.split('|')[1] : ''
@@ -3019,14 +3019,14 @@ case prefix+'gombal':
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var hasil = pickRandom(gombal)
 var gom = [
-			{ quickReplyButton: { displayText: `Next Gombalan ➡️`, id: `${command}` } },
+			{ quickReplyButton: { displayText: `Next Gombalan âž¡ï¸`, id: `${command}` } },
 		]
 		conn.sendMessage(from, {text: hasil, templateButtons: gom, footer: `Cie Di Gombal Robot\n~ Instagram : @chris.tianid`, mentions: [sender]} )
 limitAdd(sender, limit)
 break
 case prefix+'textchat':
   if (!isOwner) return reply(mess.OnlyOwner)
-  if (args.length < 2) return reply(`Kirim perintah ${command} nomer|Laporan nya\nContoh ${command} 6285921165857|Anjing\n\nAWALI DENGAN 62!`)
+  if (args.length < 2) return reply(`Kirim perintah ${command} nomer|Laporan nya\nContoh ${command} 6283830815715|Anjing\n\nAWALI DENGAN 62!`)
   var nomorcuy = q.split('|')[0] ? q.split('|')[0] : q
                 var okecuy = q.split('|')[1] ? q.split('|')[1] : ''
                 reply(`Pesan Sukses Terkirim`)
@@ -3037,7 +3037,7 @@ case prefix+'lirik':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
   reply(mess.wait)
   lirikLagu(q).then ( data => {
-    var caption = `*[ > 🎵 LIRIK LAGU 🎵 < ]*\n\n*Lirik :* ${data[0].result}`
+    var caption = `*[ > ðŸŽµ LIRIK LAGU ðŸŽµ < ]*\n\n*Lirik :* ${data[0].result}`
     conn.sendMessage(from, {text: caption}, {quoted: msg})
     limitAdd(sender, limit)
   }).catch(() => reply(`Lagu ${q} Tidak Di Temukan`))
